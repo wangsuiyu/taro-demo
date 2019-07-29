@@ -1,0 +1,22 @@
+.classify .logoImg {
+  padding: 20PX;
+  height: 100PX;
+  width: auto;
+}
+.classify .proList {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20PX;
+}
+.classify .proList .proItem {
+  width: 100PX;
+  height: 100PX;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.classify .proList .proItem .proImg {
+  width: 80PX;
+  height: 80PX;
+}
